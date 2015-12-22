@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="SwitcherPractise"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WLAN"
+        android:id="@+id/wlanSwitcher"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bluetooth"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:id="@+id/bluetoothLabel"
+            android:layout_centerVertical="true"/>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bluetoothToogleButton"
+            android:layout_toEndOf="@+id/bluetoothLabel"
+            android:layout_toRightOf="@+id/bluetoothLabel"
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="result"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/resultButtonFourthPractise"
+        android:layout_gravity="start"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Practise"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/nextPractiseFourthPractise"
+        android:layout_gravity="end"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The results are going to be displayed here"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/resultTVFourthPractise"
+        android:gravity="center_horizontal"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Autocomplete Text Practise"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+
+
+        <AutoCompleteTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Please type only the first letters."
+            android:id="@+id/autoCompleteET"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SwitcherActivity"
+        android:id="@+id/switcherActivityButton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/np"
+        android:id="@+id/nextPractiseThirdPractise"/>
+
+</LinearLayout>
