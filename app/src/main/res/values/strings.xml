@@ -47,7 +47,7 @@
         <item>Checkbox</item>
         <item>Radiobutton</item>
         <item>Autocomplete</item>
-        <item>Switcher and Bluetooth CAUTION:ONLY ON REAL DEVICES</item>
+        <item>Switcher and Bluetooth (No VM)</item>
         <item>Dropdown field</item>
         <item>Listview</item>
     </string-array>

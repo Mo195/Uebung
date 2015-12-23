@@ -21,7 +21,7 @@ public class MainActivity extends Activity{
             setContentView(R.layout.activity_main);
             activityListView=(ListView)findViewById(R.id.activityListView);
             String[] activiesStrings = getResources().getStringArray(R.array.availableActivities);
-            ArrayAdapter<String> activitiesArrayAdapter= new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,activiesStrings);
+            ArrayAdapter<String> activitiesArrayAdapter= new ArrayAdapter<String>(this,R.layout.moritz_list_layout_1,R.id.listItem,activiesStrings);
             activityListView.setAdapter(activitiesArrayAdapter);
             //register a listener for click events in ListView
             activityListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

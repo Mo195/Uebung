@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="@string/headlinemainactivity"
-        android:textAppearance="?android:textAppearanceLarge" />
+        android:textSize="30dp" />
 
     <ListView
         android:id="@+id/activityListView"
