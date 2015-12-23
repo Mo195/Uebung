@@ -1,10 +1,7 @@
 package de.krischkes.moritz.uebung;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -21,7 +18,7 @@ public class ListViewActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_listvview);
+        setContentView(R.layout.activity_listview);
         //get the Listview from the layout
         listView=(ListView)findViewById(R.id.countryListView);
         //create a ArrayAdapter to display stringarray on the ListView
