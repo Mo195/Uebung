@@ -10,7 +10,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 /** subjects:
- *  give overview over all available Activities
+ *  create ListView with available android standard layout
+ *  create ArrayAdapter with one method
+ *  create intent and set target in condition
  */
 public class MainActivity extends Activity{
 
@@ -21,7 +23,7 @@ public class MainActivity extends Activity{
             setContentView(R.layout.activity_main);
             activityListView=(ListView)findViewById(R.id.activityListView);
             String[] activiesStrings = getResources().getStringArray(R.array.availableActivities);
-            ArrayAdapter<String> activitiesArrayAdapter= new ArrayAdapter<String>(this,R.layout.moritz_list_layout_1,R.id.listItem,activiesStrings);
+            ArrayAdapter<CharSequence> activitiesArrayAdapter= ArrayAdapter.createFromResource(this,R.array.availableActivities,android.R.layout.simple_list_item_1);
             activityListView.setAdapter(activitiesArrayAdapter);
             //register a listener for click events in ListView
             activityListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

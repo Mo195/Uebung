@@ -48,7 +48,7 @@
         <item>Radiobutton</item>
         <item>Autocomplete</item>
         <item>Switcher and Bluetooth (No VM)</item>
-        <item>Dropdown field</item>
+        <item>Dropdown</item>
         <item>Listview</item>
     </string-array>
 
