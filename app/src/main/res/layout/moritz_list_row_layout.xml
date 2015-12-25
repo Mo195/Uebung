@@ -1,8 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="88dp"
+    android:background="@drawable/black">
 
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="85dp"
+        android:text="Placeholder for interpret"
+        android:textColor="@color/white"
+        android:id="@+id/interpretTV"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="85dp"
+        android:text="Placeholder for songtitle"
+        android:textColor="@color/white"
+        android:id="@+id/songTitleTV"
+        android:layout_toRightOf="@+id/interpretTV"
+        android:layout_toEndOf="@+id/interpretTV"
+        android:gravity="center"
+        android:singleLine="true"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"/>
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="75dp"
+        android:src="@drawable/options_icon"
+        android:id="@+id/optionsIconIV"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="7dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/red"
+        />
 
 
 
