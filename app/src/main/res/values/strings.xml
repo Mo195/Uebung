@@ -4,6 +4,11 @@
     <string name="results">Your results will be displayed here!</string>
     <string name="test">test</string>
     <string name="headlinemainactivity">Please select a activity</string>
+    <string name="selectCountry">Please select a country:</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_listv_view">ListViewActivity</string>
+    <string name="own_adapter_listview_label">Top 10 Christmas Hits</string>
+    <string name="hello_world">Hello world!</string>
 
         <string name="cb1">Checkbox1</string>
         <string name="cb2">Checkbox2</string>
@@ -50,12 +55,33 @@
         <item>Switcher and Bluetooth (No VM)</item>
         <item>Dropdown</item>
         <item>Listview</item>
+        <item>Own Layout/Adapter ListView</item>
     </string-array>
 
-    <string name="selectCountry">Please select a country:</string>
+    <string-array name="top10_christmas_hits_songtitles">
+        <item>Happy Xmas</item>
+        <item>Father Christmas</item>
+        <item>Wonderful Christmastime</item>
+        <item>Santa Claus Is Coming to Town</item>
+        <item>Sock It to Me Santa</item>
+        <item>Thank god it\u0027s Christmas</item>
+        <item>Little Drummer Boy</item>
+        <item>Christmas All Over Again</item>
+        <item>Christmas Time Is Here Again</item>
+        <item>2000 Miles</item>
+    </string-array>
 
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_listv_view">ListViewActivity</string>
+    <string-array name="top10_christmas_hits_artists">
+        <item>John \u0026 Yoko</item>
+        <item>The Kinks</item>
+        <item>Paul McCartney \u0026 Wings</item>
+        <item>Bruce Springsteen</item>
+        <item>Bob Seger \u0026 the Last Heard</item>
+        <item>Queen</item>
+        <item>David Bowie \u0026 Bing Cosby</item>
+        <item>Tom Petty \u0026 the Heartbreakers</item>
+        <item>The Beatles</item>
+        <item>The Pretenders</item>
+    </string-array>
 
-    <string name="hello_world">Hello world!</string>
 </resources>

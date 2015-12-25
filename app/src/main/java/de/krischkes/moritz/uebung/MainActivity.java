@@ -50,6 +50,9 @@ public class MainActivity extends Activity{
                         case 5:
                             universalIntent.setClass(getBaseContext(),ListViewActivity.class);
                             break;
+                        case 6:
+                            universalIntent.setClass(getBaseContext(),OwnAdapterListViewActivity.class);
+                            break;
                     }
                     startActivity(universalIntent);
                 }
