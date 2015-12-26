@@ -1,6 +1,7 @@
 package de.krischkes.moritz.uebung.OwnArrayAdapter;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.text.style.DrawableMarginSpan;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -97,11 +98,12 @@ public class ChristmasSongsArrayAdapter extends ArrayAdapter{
 
         //get RowContent Object
         RowContent rowContent = allRows.get(position);
+        Drawable optionsIcon = getmContext().getResources().getDrawable(R.drawable.options_icon,null);
 
         //fill the views with content
         firstTV.setText(rowContent.firstTVString);
         secondTV.setText(rowContent.secondTVString);
-        //todo: add images here
+        optionsIconIV.setImageDrawable(optionsIcon);
         return row;
     }
 
