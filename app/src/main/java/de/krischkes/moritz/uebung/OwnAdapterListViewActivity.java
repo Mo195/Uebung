@@ -2,7 +2,10 @@ package de.krischkes.moritz.uebung;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ListView;
+
+import de.krischkes.moritz.uebung.OwnArrayAdapter.ChristmasSongsArrayAdapter;
 
 /**
  * Created by Moritzkrischke on 24/12/15.
@@ -16,5 +19,14 @@ public class OwnAdapterListViewActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ownadapterlistview);
         top10ChristmasHitsLV=(ListView)findViewById(R.id.top10ChristmasHitsList);
+
+        //get String Arrays out of values file
+        String[] songtitles = getResources().getStringArray(R.array.top10_christmas_hits_songtitles);
+        String[] artists = getResources().getStringArray(R.array.top10_christmas_hits_artists);
+
+        //create instance of own Adapter
+        //todo: need to change value for layoutressource and for drawableressource
+        ChristmasSongsArrayAdapter christmasSongsArrayAdapter= new ChristmasSongsArrayAdapter(this,R.layout.moritz_list_row_layout,songtitles,artists,0);
+        top10ChristmasHitsLV.setAdapter(christmasSongsArrayAdapter);
     }
 }

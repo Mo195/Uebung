@@ -5,7 +5,7 @@
     android:background="@drawable/black">
 
     <TextView
-        android:layout_width="130dp"
+        android:layout_width="200dp"
         android:layout_height="85dp"
         android:text="Placeholder for interpret"
         android:textColor="@color/white"
@@ -18,7 +18,7 @@
         android:textSize="15sp"/>
 
     <TextView
-        android:layout_width="140dp"
+        android:layout_width="280dp"
         android:layout_height="85dp"
         android:text="Placeholder for songtitle"
         android:textColor="@color/white"
