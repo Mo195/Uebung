@@ -10,6 +10,7 @@ import android.widget.TextView;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
+import de.krischkes.moritz.uebung.PickerActivity;
 import de.krischkes.moritz.uebung.R;
 
 /**
@@ -27,8 +28,15 @@ public class DatePickerFragment extends DialogFragment implements DatePickerDial
     }
 
     public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
+        //set values in calling Activity
+        ((PickerActivity)getActivity()).getSelectedDate().set(Calendar.YEAR,year);
+        ((PickerActivity)getActivity()).getSelectedDate().set(Calendar.MONTH,monthOfYear);
+        ((PickerActivity)getActivity()).getSelectedDate().set(Calendar.DAY_OF_MONTH,dayOfMonth);
         Calendar calendar = Calendar.getInstance();
         calendar.set(year, monthOfYear, dayOfMonth);
+        //set date in calling activity to refer to it as last select
+        ((PickerActivity)getActivity()).setSelectedDate(calendar);
+        //format date
         SimpleDateFormat date = new SimpleDateFormat("yyyy-MM-dd");
         TextView dateResultTV = (TextView)getActivity().findViewById(R.id.resultDate);
         dateResultTV.setText(date.format(calendar.getTime()));

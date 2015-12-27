@@ -9,8 +9,10 @@
     <string name="title_activity_listv_view">ListViewActivity</string>
     <string name="own_adapter_listview_label">Top 10 Christmas Hits</string>
     <string name="select_a_date">Please select a date:</string>
-    <string name="click_me">Click me!</string>
-    <string name="datepicker_activity_label">Datepicker Activity</string>
+    <string name="select_a_time">Please select a time:</string>
+    <string name="picker_activity_label">Picker Activity</string>
+    <string name="last_selected_values">The last selected Values are:</string>
+
 
         <string name="cb1">Checkbox1</string>
         <string name="cb2">Checkbox2</string>

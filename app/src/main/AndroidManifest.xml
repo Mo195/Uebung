@@ -31,7 +31,7 @@
         <activity android:name=".SwitcherActivity" />
         <activity android:name=".SpinnerActivity" />
         <activity android:name=".PickerActivity"
-            android:label="@string/datepicker_activity_label"/>
+            android:label="@string/picker_activity_label"/>
 
         <activity
             android:name=".ListViewActivity"
