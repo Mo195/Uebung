@@ -24,7 +24,6 @@
 
         </activity>
 
-
         <activity android:name=".CheckboxActivity" />
         <activity android:name=".RadioButtonActivity" />
         <activity android:name=".AutoCompleteActivity" />
@@ -32,14 +31,12 @@
         <activity android:name=".SpinnerActivity" />
         <activity android:name=".PickerActivity"
             android:label="@string/picker_activity_label"/>
-
-        <activity
-            android:name=".ListViewActivity"
+        <activity android:name=".ListViewActivity"
             android:label="@string/title_activity_listv_view"/>
-        <activity
-            android:name=".OwnAdapterListViewActivity"
-            android:label="@string/own_adapter_listview_label"
-            />
+        <activity android:name=".OwnAdapterListViewActivity"
+            android:label="@string/own_adapter_listview_label" />
+        <activity android:name=".JSONActivity"
+            android:label="@string/json_activity_label"/>
 
     </application>
 

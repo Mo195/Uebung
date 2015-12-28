@@ -55,6 +55,10 @@ public class MainActivity extends Activity{
                             break;
                         case 7:
                             universalIntent.setClass(getBaseContext(),PickerActivity.class);
+                            break;
+                        case 8:
+                            universalIntent.setClass(getBaseContext(),JSONActivity.class);
+                            break;
                     }
                     startActivity(universalIntent);
                 }

@@ -12,6 +12,8 @@
     <string name="select_a_time">Please select a time:</string>
     <string name="picker_activity_label">Picker Activity</string>
     <string name="last_selected_values">The last selected Values are:</string>
+    <string name="json_activity_label">JSON Playground</string>
+    <string name="create_json">Create JSON</string>
 
 
         <string name="cb1">Checkbox1</string>
@@ -61,6 +63,7 @@
         <item>Listview</item>
         <item>Own Layout/Adapter ListView</item>
         <item>PickerActivity</item>
+        <item>JSON Playground</item>
     </string-array>
 
     <string-array name="top10_christmas_hits_songtitles">
