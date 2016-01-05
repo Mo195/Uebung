@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="de.krischkes.moritz.uebung">
+    package="de.krischkes.moritz.uebung" >
 
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
@@ -11,33 +11,48 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="FirstTest.db" />
+        <meta-data
+            android:name="AA_DB_Version"
+            android:value="1" />
+
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name">
-
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
         <activity android:name=".CheckboxActivity" />
         <activity android:name=".RadioButtonActivity" />
         <activity android:name=".AutoCompleteActivity" />
         <activity android:name=".SwitcherActivity" />
         <activity android:name=".SpinnerActivity" />
-        <activity android:name=".PickerActivity"
-            android:label="@string/picker_activity_label"/>
-        <activity android:name=".ListViewActivity"
-            android:label="@string/title_activity_listv_view"/>
-        <activity android:name=".OwnAdapterListViewActivity"
+        <activity
+            android:name=".PickerActivity"
+            android:label="@string/picker_activity_label" />
+        <activity
+            android:name=".ListViewActivity"
+            android:label="@string/title_activity_listv_view" />
+        <activity
+            android:name=".OwnAdapterListViewActivity"
             android:label="@string/own_adapter_listview_label" />
-        <activity android:name=".JSONActivity"
-            android:label="@string/json_activity_label"/>
-
+        <activity
+            android:name=".JSONActivity"
+            android:label="@string/json_activity_label" />
+        <activity
+            android:name=".ActiveandroidActivity"
+            android:label="@string/title_activity_activeandroid" >
+        </activity>
+        <activity
+            android:name=".DatabasePlaygroundActivtiy"
+            android:label="@string/title_activity_database_playground_activtiy" >
+        </activity>
     </application>
 
 </manifest>

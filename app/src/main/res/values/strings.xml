@@ -64,6 +64,7 @@
         <item>Own Layout/Adapter ListView</item>
         <item>PickerActivity</item>
         <item>JSON Playground</item>
+        <item>SQLite Database Playground</item>
     </string-array>
 
     <string-array name="top10_christmas_hits_songtitles">
@@ -91,5 +92,9 @@
         <item>The Beatles</item>
         <item>The Pretenders</item>
     </string-array>
+    <string name="title_activity_activeandroid">ActiveAndroid Activity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_database_playground_activtiy">Database Playground</string>
 
 </resources>

@@ -59,6 +59,9 @@ public class MainActivity extends Activity{
                         case 8:
                             universalIntent.setClass(getBaseContext(),JSONActivity.class);
                             break;
+                        case 9:
+                            universalIntent.setClass(getBaseContext(), DatabasePlaygroundActivtiy.class);
+                            break;
                     }
                     startActivity(universalIntent);
                 }
