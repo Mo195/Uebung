@@ -3,7 +3,6 @@ package de.krischkes.moritz.uebung;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -60,7 +59,10 @@ public class MainActivity extends Activity{
                             universalIntent.setClass(getBaseContext(),JSONActivity.class);
                             break;
                         case 9:
-                            universalIntent.setClass(getBaseContext(), DatabasePlaygroundActivtiy.class);
+                            universalIntent.setClass(getBaseContext(),DatabasePlaygroundActivtiy.class);
+                            break;
+                        case 10:
+                            universalIntent.setClass(getBaseContext(), ActiveAndroidActivity.class);
                             break;
                     }
                     startActivity(universalIntent);

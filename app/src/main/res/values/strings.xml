@@ -65,6 +65,7 @@
         <item>PickerActivity</item>
         <item>JSON Playground</item>
         <item>SQLite Database Playground</item>
+        <item>Active Android Playground - Improved Edition</item>
     </string-array>
 
     <string-array name="top10_christmas_hits_songtitles">
@@ -96,5 +97,6 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_database_playground_activtiy">Database Playground</string>
+    <string name="title_activity_active_android_improved">ActiveAndroid Improved</string>
 
 </resources>

@@ -46,12 +46,12 @@
             android:name=".JSONActivity"
             android:label="@string/json_activity_label" />
         <activity
-            android:name=".ActiveandroidActivity"
-            android:label="@string/title_activity_activeandroid" >
-        </activity>
-        <activity
             android:name=".DatabasePlaygroundActivtiy"
             android:label="@string/title_activity_database_playground_activtiy" >
+        </activity>
+        <activity
+            android:name=".ActiveAndroidActivity"
+            android:label="@string/title_activity_active_android_improved" >
         </activity>
     </application>
 
